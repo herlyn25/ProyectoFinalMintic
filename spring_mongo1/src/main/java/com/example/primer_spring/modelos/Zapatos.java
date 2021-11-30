@@ -13,6 +13,7 @@ public class Zapatos {
     private String tipo;
     private String linea;
     private String precio;
+    private String estado;
     private String cedVendedor;
 
     public String getId() {
@@ -69,6 +70,14 @@ public class Zapatos {
 
     public void setPrecio(String precio) {
         this.precio = precio;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 
     public String getCedVendedor() {
